@@ -1,5 +1,7 @@
 /* ------------------- */
+
 /* Custom properties   */
+
 /* ------------------- */
 
 :root {
@@ -7,7 +9,7 @@
   --clr-dark: 230 35% 7%;
   --clr-light: 231 77% 90%;
   --clr-white: 0 0% 100%;
-  
+
   /* font-sizes */
   --fs-900: 9.375rem;
   --fs-800: 6.25rem;
@@ -17,7 +19,7 @@
   --fs-400: 1.125rem;
   --fs-300: 1rem;
   --fs-200: 0.875rem;
-  
+
   /* font-families */
   --ff-serif: "Bellefair", serif;
   --ff-sans-cond: "Barlow Condensed", sans-serif;
@@ -26,7 +28,9 @@
 
 
 /* ------------------- */
+
 /* Reset               */
+
 /* ------------------- */
 
 /* https://piccalil.li/blog/a-modern-css-reset/ */
@@ -46,9 +50,8 @@ h3,
 h4,
 h5,
 p,
-figure,
-picture {
-  margin: 0; 
+figure {
+  margin: 0;
 }
 
 h1,
@@ -65,15 +68,14 @@ p {
 body {
   font-family: var(--ff-sans-normal);
   font-size: var(--fs-400);
-  color: hsl( var(--clr-dark) );
-  background-color: hsl( var(--clr-white) );
+  color: hsl(var(--clr-dark));
+  background-color: hsl(var(--clr-white));
   line-height: 1.5;
   min-height: 100vh;
 }
 
 /* make images easier to work with */
-img,
-picutre {
+img {
   max-width: 100%;
   display: block;
 }
@@ -87,15 +89,15 @@ select {
 }
 
 /* remove animations for people who've turned them off */
-@media (prefers-reduced-motion: reduce) {  
-*,
-*::before,
-*::after {
-  animation-duration: 0.01ms !important;
-  animation-iteration-count: 1 !important;
-  transition-duration: 0.01ms !important;
-  scroll-behavior: auto !important;
-}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 h1 {
@@ -103,7 +105,7 @@ h1 {
   font-family: var(--ff-serif);
   letter-spacing: 4.75px;
   text-transform: uppercase;
-} 
+}
 
 h2 {
   font-size: var(--fs-700);
@@ -121,14 +123,14 @@ h2 {
 
 .grid {
   display: grid;
-  grid-template-columns: auto auto;  
+  grid-template-columns: auto auto;
 }
 
 #recent-scores {
   list-style-type: none;
   margin-left: 2rem;
   margin-right: 4rem;
-  border: 2px solid hsl( var(--clr-dark) );
+  border: 2px solid hsl(var(--clr-dark));
 }
 
 #recent-scores li {
@@ -136,9 +138,8 @@ h2 {
 }
 
 #recent-scores li:nth-child(even) {
-  background-color: hsl( var(--clr-light) );
+  background-color: hsl(var(--clr-light));
 }
-
 
 .grid-item-1 {
   display: flex;
@@ -148,9 +149,10 @@ h2 {
 }
 
 #name {
-  margin-top: 1.15rem; 
+  margin-top: 1.15rem;
 }
 
-#score, #submit {
+#score,
+#submit {
   margin-top: 1.15rem;
 }
