@@ -16,3 +16,9 @@ submit.addEventListener('click', newScore);
 
 refresh.addEventListener('click', getScores);
 
+// Refresh the scores list when the page loads.
+
+window.addEventListener('load', getScores);
+
+
+

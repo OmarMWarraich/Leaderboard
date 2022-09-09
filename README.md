@@ -1,4 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
@@ -10,7 +9,7 @@
 
 ## Live Demo 
 
-Coming Soon
+[Live Demo Link](http://cryptoova.me/Leaderboard/)
 
 ## Getting Started
 
@@ -48,11 +47,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- 
-- 
 
 ## 📝 License
 
