@@ -1,9 +1,6 @@
-// import { createGame } from './modules/createGame';
-import { newScore } from './modules/newScore';
-import { getScores } from './modules/getScores';
+import newScore from './modules/newScore.js';
+import getScores from './modules/getScores.js';
 import './style.css';
-
-// createGame();
 
 const submit = document.querySelector('#submit');
 const refresh = document.querySelector('#refresh');
@@ -19,6 +16,3 @@ refresh.addEventListener('click', getScores);
 // Refresh the scores list when the page loads.
 
 window.addEventListener('load', getScores);
-
-
-
