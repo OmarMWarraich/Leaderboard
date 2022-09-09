@@ -8,7 +8,7 @@ const renderGames = () => {
   let html = '';
   // eslint-disable-next-line no-restricted-syntax
   for (const game of gamesArray) {
-    html += `<li>${game.user}: ${game.score}</li>`;
+    html += `<li class="score-list">${game.user}: ${game.score}</li>`;
   }
   if (scores !== null) {
     scores.innerHTML = html;

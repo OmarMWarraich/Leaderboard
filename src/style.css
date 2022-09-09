@@ -132,7 +132,11 @@ h2 {
   border: 2px solid hsl(var(--clr-dark));
 }
 
-#recent-scores li {
+.score-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   margin-right: 2rem;
 }
 
@@ -154,4 +158,38 @@ h2 {
 #score,
 #submit {
   margin-top: 1.15rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: var(--fs-600);
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: var(--fs-400);
+    letter-spacing: 0.25px;
+    text-align: center;
+    margin: auto;
+  }
+
+  #refresh {
+    font-size: var(--fs-200);
+    letter-spacing: 0.25px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #recent-scores {
+    border: 2px solid hsl(var(--clr-dark));
+    margin: 5px auto;
+  }
+
+  .score-list {
+    margin-bottom: 1px;
+  }
 }
