@@ -2,15 +2,15 @@
 
 # Project Name
 
-> webpack-linters-template
+> Leaderboard
 
 ## Built With
 
-- webpack, html, js & css
+- webpack, html, js & custom css
 
 ## Live Demo 
 
-[Live Demo Link]()
+Coming Soon
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Clone the repository from [GitHub]().
+- Clone the repository from [GitHub](https://github.com/OmarMWarraich/Leaderboard.git).
 - Change to the directory of the repository.
 
 ### Install
@@ -51,7 +51,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- 
 - 
 - 
 

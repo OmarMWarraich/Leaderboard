@@ -1,5 +1,5 @@
 {
-  "name": "todo-list",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OmarMWarraich/todo-list.git"
+    "url": "git+https://github.com/OmarMWarraich/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OmarMWarraich/todo-list/issues"
+    "url": "https://github.com/OmarMWarraich/Leaderboard/issues"
   },
-  "homepage": "https://github.com/OmarMWarraich/todo-list#readme",
+  "homepage": "https://github.com/OmarMWarraich/Leaderboard#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
