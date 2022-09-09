@@ -166,31 +166,30 @@ h2 {
     letter-spacing: 0.5px;
     text-align: center;
   }
-  
+
   h2 {
     font-size: var(--fs-400);
     letter-spacing: 0.25px;
     text-align: center;
     margin: auto;
   }
-  
+
   #refresh {
     font-size: var(--fs-200);
     letter-spacing: 0.25px;
   }
-  
+
   .grid {
     display: flex;
     flex-direction: column;
   }
-  
+
   #recent-scores {
     border: 2px solid hsl(var(--clr-dark));
     margin: 5px auto;
   }
-  
+
   .score-list {
     margin-bottom: 1px;
   }
-   
 }
