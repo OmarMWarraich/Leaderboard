@@ -1,16 +1,15 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
-> webpack-linters-template
+> Leaderboard
 
 ## Built With
 
-- webpack, html, js & css
+- webpack, html, js & custom css
 
 ## Live Demo 
 
-[Live Demo Link]()
+[Live Demo Link](http://cryptoova.me/Leaderboard/)
 
 ## Getting Started
 
@@ -23,7 +22,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Clone the repository from [GitHub]().
+- Clone the repository from [GitHub](https://github.com/OmarMWarraich/Leaderboard.git).
 - Change to the directory of the repository.
 
 ### Install
@@ -48,12 +47,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- 
-- 
-- 
 
 ## 📝 License
 
