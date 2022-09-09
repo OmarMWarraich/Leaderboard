@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>Leaderboard List app</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+        rel="stylesheet">      
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    
 </head>
 <body>
-    <h1>Hello Webpack!</h1>
+    <h1>Leaderboard</h1>
+
+<div class="grid">
+    <div class="grid-item">
+        <h2>Recent scores
+        <span><button id="refresh" type="reset">Refresh</button></span></h2>
+        <ul id="recent-scores">
+        </ul>
+    </div>
+    <div class="grid-item-1">
+        <h2>Add your score</h2>
+        <input type="text" placeholder="Your name" id="name" required>
+        <input type="number" placeholder="Your score" id="score" required>
+        <button id="submit" type="submit">Submit</button>
+    </div>
+
+</div>
 </body>
 </html>

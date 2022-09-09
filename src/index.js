@@ -1,14 +1,18 @@
-import _ from 'lodash';
+import newScore from './modules/newScore.js';
+import getScores from './modules/getScores.js';
 import './style.css';
 
-function component() {
-  const element = document.createElement('div');
+const submit = document.querySelector('#submit');
+const refresh = document.querySelector('#refresh');
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
+// Submit a new score to the API.
 
-  return element;
-}
+submit.addEventListener('click', newScore);
 
-document.body.appendChild(component());
+// Refresh the scores list.
+
+refresh.addEventListener('click', getScores);
+
+// Refresh the scores list when the page loads.
+
+window.addEventListener('load', getScores);
